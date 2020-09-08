@@ -1,3 +1,12 @@
+ISNTALAR DEPENDENCIAS
+npm install --save-dev gulp
+npm install --save-dev gulp-sass
+npm install --save-dev browser-sync
+npm install --save-dev gulp-concat
+npm install --save-dev gulp-uglify
+npm install --save-dev gulp-minify-css
+
+
 //importar funciones específicas  de la API de gulp
 const { src, dest, series, parallel, watch } = require('gulp');
 
@@ -77,3 +86,6 @@ function minifyjsTask(d) {
 }
 
 exports.default = series(scssTask, minifycssTask, minifyjsTask, serveTask, watchTask);
+
+
+
