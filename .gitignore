@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #No llevar registro de las dependencias
 node_modules
+=======
+#No llevar registro de las dependencias
+node_modules
+>>>>>>> 019cb70cac6ef8cef0140aa665519de588a66db6
